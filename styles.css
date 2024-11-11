@@ -1,0 +1,70 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Top Menu Bar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.top-nav li {
+    margin: 0 20px;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.top-nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
