@@ -7,21 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="nav-bar" onclick="toggleNavbar()">
+    </div>
     <!-- Header -->
     <header>
-        <div class="nav-bar">
-            <div class="menu-icon"></div>
-            <div class="menu-icon"></div>
+        <div class="header-logo">
+        <img src="grey.jpg" alt="Logo" class="header-logo">
         </div>
         
-        <!-- GIF Link -->
-        <a href="cat.gif" target="_blank" class="gif-container">
-            <img src="cat.gif" alt="Category GIF">
-        </a>
+        <div class="nav-bar" onclick="toggleNavbar()">
+            <img src="Menu Icon.png" alt="menu" class="menu-icon">
+        </div>
+        
     </header>
 
+      <!-- Navbar content -->
+    <div id="navbar" class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    <script src="script.js"></script>
     <!-- Main Content -->
     <main>
+        <div class="main-image">
+            <img src="grey.jpg" alt="BigImage" class="main-image">
+        </div>
         <div class="category-header">
             <h1>Explore a Category</h1>
         </div>
@@ -32,20 +45,20 @@
 
         <section class="category-grid">
             <div class="category-box">
-                <img src="green.png" alt="Category Image 1">
+                <img src="green.png">
                 <p>TO BE DETERMINED</p>
             </div>
             <div class="category-box">
-                <img src="green.png" alt="Category Image 2">
+                <img src="green.png">
                 <p>TO BE DETERMINED</p>
             </div>
             <div class="category-box">
-                <img src="green.png" alt="Category Image 3">
+                <img src="green.png">
                 <p>TO BE DETERMINED</p>
             </div>
         </section>
 
-        <button class="more-button">MORE</button>
+        <button class="more-button">. . .</button>
     </main>
 </body>
 </html>
